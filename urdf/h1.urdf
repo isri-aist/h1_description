@@ -3,21 +3,18 @@
 Stephen Brawner (brawner@gmail.com) 
      Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
-<robot
-  name="h1_description">
+<robot name="H1">
   <mujoco>
     <compiler meshdir="../meshes" discardvisual="false" />
   </mujoco>
-
-
+  
   <!-- [CAUTION] uncomment when convert to mujoco -->
   <!-- <link name="world"></link>
   <joint name="floating_base_joint" type="floating">
     <parent link="world" />
     <child link="pelvis" />
   </joint> -->
-
-
+  
   <link
     name="pelvis">
     <inertial>
